@@ -434,7 +434,7 @@ export default function Home() {
                       {product?.name} × {item.quantity}
                     </span>
                     <span className="font-medium text-stone-900">
-                      ${((product?.price || 0) * item.quantity).toFixed(2)}
+                      ₹{((product?.price || 0) * item.quantity).toFixed(2)}
                     </span>
                   </div>
                 );
@@ -442,7 +442,7 @@ export default function Home() {
             </div>
             <div className="border-t border-stone-200 pt-4 flex items-center justify-between">
               <span className="font-bold text-lg text-stone-900">Total:</span>
-              <span className="font-bold text-xl text-emerald-600">${cartTotal.toFixed(2)}</span>
+              <span className="font-bold text-xl text-emerald-600">₹{cartTotal.toFixed(2)}</span>
             </div>
             <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white">
               Checkout
