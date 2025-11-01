@@ -11,7 +11,7 @@ const products = [
   {
     id: 1,
     name: 'Organic Beeswax Wraps Set',
-    price: 24.99,
+    price: 249,
     category: 'Kitchen',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZy5qEZFyeJ_PlGtSi6C6AEe8Nab3uMVX3Ng&s',
     description: 'Set of 3 reusable food wraps in assorted sizes',
@@ -21,7 +21,7 @@ const products = [
   {
     id: 2,
     name: 'Bamboo Utensil Travel Kit',
-    price: 18.50,
+    price: 1850,
     category: 'Kitchen',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv-lwhNbOVfhzHbLfvcnkE7w-e1Qmwbo2mkg&s',
     description: 'Complete cutlery set in organic cotton pouch',
@@ -31,7 +31,7 @@ const products = [
   {
     id: 3,
     name: 'Solid Shampoo Bar - Lavender',
-    price: 16.00,
+    price: 160,
     category: 'Personal Care',
     image: 'https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&w=800',
     description: 'Zero-waste hair care, lasts 80+ washes',
@@ -41,7 +41,7 @@ const products = [
   {
     id: 4,
     name: 'Recycled Canvas Tote Bag',
-    price: 28.00,
+    price: 28,
     category: 'Accessories',
     image: 'https://bagmaverick.com/wp-content/uploads/2022/06/shutterstock_1411993424-1080x675.jpg',
     description: 'Large capacity tote from recycled materials',
@@ -51,7 +51,7 @@ const products = [
   {
     id: 5,
     name: 'Natural Soap Bar Collection',
-    price: 22.00,
+    price: 220,
     category: 'Personal Care',
     image: 'https://img.freepik.com/free-photo/soap-spa-beauty-procedures-skin-care-concept_185193-109294.jpg?semt=ais_hybrid&w=740&q=80',
     description: 'Set of 4 artisan soaps with essential oils',
@@ -61,7 +61,7 @@ const products = [
   {
     id: 6,
     name: 'Stainless Steel Water Bottle',
-    price: 32.99,
+    price: 329,
     category: 'Drinkware',
     image: 'https://www.givingeurope.com/media/catalog/product/i/m/impr_1214914-PDP.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700',
     description: 'Insulated bottle keeps drinks cold for 24h',
@@ -71,7 +71,7 @@ const products = [
   {
     id: 7,
     name: 'Organic Cotton Produce Bags',
-    price: 19.99,
+    price: 19,
     category: 'Kitchen',
     image: 'https://www.sustainme.in/cdn/shop/files/1.ORGANICCOTTONTOTEBAGSWITHZIPPERANDINNERPOCKET_400x.jpg?v=1691815411',
     description: 'Set of 5 mesh bags in various sizes',
@@ -81,7 +81,7 @@ const products = [
   {
     id: 8,
     name: 'Bamboo Toothbrush Set',
-    price: 14.50,
+    price: 145,
     category: 'Personal Care',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrFkcLsuoxufM2XXyJyLvHgUa3hYlTsiJDpw&s',
     description: 'Pack of 4 biodegradable toothbrushes',
