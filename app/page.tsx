@@ -13,7 +13,7 @@ const products = [
     name: 'Organic Beeswax Wraps Set',
     price: 24.99,
     category: 'Kitchen',
-    image: 'https://images.pexels.com/photos/6942024/pexels-photo-6942024.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZy5qEZFyeJ_PlGtSi6C6AEe8Nab3uMVX3Ng&s',
     description: 'Set of 3 reusable food wraps in assorted sizes',
     impact: 'Saves 1000+ plastic bags per set',
     stock: 45,
@@ -23,7 +23,7 @@ const products = [
     name: 'Bamboo Utensil Travel Kit',
     price: 18.50,
     category: 'Kitchen',
-    image: 'https://images.pexels.com/photos/4505168/pexels-photo-4505168.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv-lwhNbOVfhzHbLfvcnkE7w-e1Qmwbo2mkg&s',
     description: 'Complete cutlery set in organic cotton pouch',
     impact: 'Eliminates single-use plastic utensils',
     stock: 32,
@@ -43,7 +43,7 @@ const products = [
     name: 'Recycled Canvas Tote Bag',
     price: 28.00,
     category: 'Accessories',
-    image: 'https://images.pexels.com/photos/4210783/pexels-photo-4210783.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://bagmaverick.com/wp-content/uploads/2022/06/shutterstock_1411993424-1080x675.jpg',
     description: 'Large capacity tote from recycled materials',
     impact: 'Made from 12 recycled plastic bottles',
     stock: 28,
@@ -53,7 +53,7 @@ const products = [
     name: 'Natural Soap Bar Collection',
     price: 22.00,
     category: 'Personal Care',
-    image: 'https://images.pexels.com/photos/4612010/pexels-photo-4612010.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://img.freepik.com/free-photo/soap-spa-beauty-procedures-skin-care-concept_185193-109294.jpg?semt=ais_hybrid&w=740&q=80',
     description: 'Set of 4 artisan soaps with essential oils',
     impact: 'Palm oil-free, biodegradable ingredients',
     stock: 51,
@@ -63,7 +63,7 @@ const products = [
     name: 'Stainless Steel Water Bottle',
     price: 32.99,
     category: 'Drinkware',
-    image: 'https://images.pexels.com/photos/4173179/pexels-photo-4173179.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://www.givingeurope.com/media/catalog/product/i/m/impr_1214914-PDP.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700',
     description: 'Insulated bottle keeps drinks cold for 24h',
     impact: 'Replaces 200+ single-use bottles yearly',
     stock: 40,
@@ -73,7 +73,7 @@ const products = [
     name: 'Organic Cotton Produce Bags',
     price: 19.99,
     category: 'Kitchen',
-    image: 'https://images.pexels.com/photos/6994962/pexels-photo-6994962.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://www.sustainme.in/cdn/shop/files/1.ORGANICCOTTONTOTEBAGSWITHZIPPERANDINNERPOCKET_400x.jpg?v=1691815411',
     description: 'Set of 5 mesh bags in various sizes',
     impact: 'Zero-waste grocery shopping solution',
     stock: 38,
@@ -83,7 +83,7 @@ const products = [
     name: 'Bamboo Toothbrush Set',
     price: 14.50,
     category: 'Personal Care',
-    image: 'https://images.pexels.com/photos/4465128/pexels-photo-4465128.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrFkcLsuoxufM2XXyJyLvHgUa3hYlTsiJDpw&s',
     description: 'Pack of 4 biodegradable toothbrushes',
     impact: 'Biodegradable handle, BPA-free bristles',
     stock: 72,
@@ -334,7 +334,7 @@ export default function Home() {
                   </div>
                 </CardContent>
                 <CardFooter className="p-4 pt-0 flex items-center justify-between">
-                  <span className="text-xl font-bold text-stone-900">${product.price}</span>
+                  <span className="text-xl font-bold text-stone-900">₹{product.price}</span>
                   <Button
                     size="sm"
                     className="bg-emerald-600 hover:bg-emerald-700 text-white"
